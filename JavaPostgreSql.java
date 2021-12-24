@@ -9,8 +9,8 @@ public class JavaPostgreSql {
     public static void writeToDatabase(String userName, String userEmail, String userPassword) {
 
         String url = "jdbc:postgresql://localhost:5432/analysis";
-        String user = "postgres";
-        String password = "4donald5";
+        String user = "POSTGRES_USERNAME";
+        String password = "POSTGRES_PASSWORD";
 
         String name = userName;
         String email= userEmail;
